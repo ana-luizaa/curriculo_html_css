@@ -113,6 +113,7 @@ body {
     width: 30px;
     font-size: 18px;
     color: #FF023F;
+    text-transform: uppercase;
 }
 
 .informaçaocontato ul li span {
@@ -122,14 +123,16 @@ body {
 
 .informaçaoeducaçao li {
     margin-bottom: 15px;
+    list-style: none;
 }
 
 .informaçaoeducaçao h5 {
     color: #FF023F;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
-.informaçaoeducaçao h4:ith-child(2) {
+.informaçaoeducaçao h4:nth-child(2) {
     color: #fff;
     font-weight: 500;
 }
@@ -138,7 +141,25 @@ body {
     color: #fff;
     font-weight: 300;
 }
+.informaçaoidioma .porcentagem{
+position: relative;
+width: 100%;
+height: 6px;
+background: #FF023F;
+display: block;
+margin-top: 5px;
+}
+.informaçaoidioma div{
+top: 0;
+left: 0;
+height: 100%;
+background: #C46B96;
 
+}
+.informaçaoidioma .texto {
+ color: #fff;
+ text-transform: uppercase;
+}
 
 
 .container .lado-direito {
@@ -147,4 +168,27 @@ body {
     background: #fff;
     padding: 40px;
 
+}
+.sobre{
+margin-bottom: 50px;
+}
+.about:last-child{
+margin-bottom: 0;
+}
+.texto2{
+color:#871C4F; 
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-bottom: 10px;
+}
+p{
+color:#333
+}
+.about .box{
+display: flex;
+flex-direction:row;
+margin:20px 0;
+}
+.about .box .year_company{
+min-width: 150px
 }
